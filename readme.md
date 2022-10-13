@@ -35,3 +35,6 @@ Barkács Áruház
 16. https://pixabay.com/hu/photos/fejsze-apr%c3%adt%c3%b3-v%c3%a1gott-has%c3%adtott-674841/
 17. https://pixabay.com/hu/photos/oll%c3%b3-v%c3%a1gni-hivatal-f%c3%a9m-eszk%c3%b6z-321238/
 18. https://pixabay.com/hu/photos/sz%c3%a1m%c3%adt%c3%b3g%c3%a9p-karbantart%c3%a1s-alkatr%c3%a9szek-3509990/
+19. https://www.pexels.com/hu-hu/foto/zoldsegek-kert-talaj-organikus-5503338/
+20. https://www.pexels.com/hu-hu/foto/szemely-kezek-szovet-termeles-3738075/
+21. https://pixabay.com/hu/photos/vir%c3%a1g-%c3%a9let-s%c3%a1rga-vir%c3%a1g-r%c3%a9s-sivatag-887443/
