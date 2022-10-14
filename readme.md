@@ -38,3 +38,9 @@ Barkács Áruház
 19. https://www.pexels.com/hu-hu/foto/zoldsegek-kert-talaj-organikus-5503338/
 20. https://www.pexels.com/hu-hu/foto/szemely-kezek-szovet-termeles-3738075/
 21. https://pixabay.com/hu/photos/vir%c3%a1g-%c3%a9let-s%c3%a1rga-vir%c3%a1g-r%c3%a9s-sivatag-887443/
+22. https://pixabay.com/hu/photos/z%c3%b6ld-hullad%c3%a9k-komposzt-komposzt%c3%a1l%c3%b3-513609/
+23. https://pixabay.com/hu/photos/vir%c3%a1g-%c3%a9let-s%c3%a1rga-vir%c3%a1g-r%c3%a9s-sivatag-887443/
+24. https://pixabay.com/hu/photos/%c3%a9p%c3%bclet-eur%c3%b3pa-%c3%a9s-amerika-shop-688861/
+25. https://pixabay.com/hu/photos/eszk%c3%b6z%c3%b6k-fel%c3%a9p%c3%adteni-haj%c3%b3-jav%c3%adt%c3%a1s-864983/
+26. https://pixabay.com/hu/photos/tinta-fest%c3%a9kek-nyomtat%c3%a1s-1602896/
+27. https://pixabay.com/hu/photos/faipari-gabona-szerkezet-strukt%c3%bara-2065366/
