@@ -146,18 +146,8 @@ h5{
 li{
   list-style-type: none;
 }
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
- 
+.menugomb{
+  position: fixed;
+  border: none;
+  background-color: floralwhite;
+}
