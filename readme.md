@@ -44,3 +44,6 @@ Barkács Áruház
 25. https://pixabay.com/hu/photos/eszk%c3%b6z%c3%b6k-fel%c3%a9p%c3%adteni-haj%c3%b3-jav%c3%adt%c3%a1s-864983/
 26. https://pixabay.com/hu/photos/tinta-fest%c3%a9kek-nyomtat%c3%a1s-1602896/
 27. https://pixabay.com/hu/photos/faipari-gabona-szerkezet-strukt%c3%bara-2065366/
+28. https://www.pexels.com/hu-hu/foto/divat-szemely-kezek-no-1024311/ 
+29. https://www.pexels.com/hu-hu/foto/ferfi-modell-fiatal-frizura-9363545/
+30. https://www.pexels.com/hu-hu/foto/szemely-no-arc-portre-3992656/
