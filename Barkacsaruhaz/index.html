@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Főoldal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Főoldal</title>
 </head>
+
 <body>
-    <!--Menü-->
+  <!--Menü-->
   <div id="mySidenav" class="sidenav">
     <img src="logó.svg" alt="" class="logo">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    
+
     <div class="nav-item menu">
       <a class="nav-link" href="index.html">Főoldal</a>
     </div>
-  
+
     <div class="dropdown">
       <button class="dropbtn">Festékek</button>
       <div class="dropdown-content">
@@ -76,247 +79,270 @@
     <navbar style="font-size:25px;cursor:pointer" class="menugomb" onclick="openNav()">&#9776;</navbar>
     <!--Itt ér véget a menü-->
 
-  <div class="container">
+    <div class="container">
       <!--Szerszámok hirdetés-->
 
-    <div class="row mx-3">
-      <div class="col-12 col-md-6 mt-5">
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="img/fooldal/szerszam_hirdetes/szerszamok.jpg" class="d-block w-100" alt="Szerszám hirdetés" title="Szerszám hirdetés">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Szerszámok</h1>
-              <p>Nézzen szét szerszámkatalógusunkban!</p>
+      <div class="row mx-3">
+        <div class="col-12 col-md-6 mt-5">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/fooldal/szerszam_hirdetes/szerszamok.jpg" class="d-block w-100" alt="Szerszám hirdetés"
+                  title="Szerszám hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Szerszámok</h1>
+                  <p>Nézzen szét szerszámkatalógusunkban!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/fooldal/szerszam_hirdetes/szerszamok2.jpg" class="d-block w-100" alt="Szerszám hirdetés"
+                  title="Szerszám hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Szerszámok</h1>
+                  <p>Nézzen szét szerszámkatalógusunkban!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/fooldal/szerszam_hirdetes/szerszamok3.jpg" class="d-block w-100" alt="Szerszám hirdetés"
+                  title="Szerszám hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Szerszámok</h1>
+                  <p>Nézzen szét szerszámkatalógusunkban!</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/fooldal/szerszam_hirdetes/szerszamok2.jpg" class="d-block w-100" alt="Szerszám hirdetés" title="Szerszám hirdetés">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Szerszámok</h1>
-              <p>Nézzen szét szerszámkatalógusunkban!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/fooldal/szerszam_hirdetes/szerszamok3.jpg" class="d-block w-100" alt="Szerszám hirdetés" title="Szerszám hirdetés">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Szerszámok</h1>
-              <p>Nézzen szét szerszámkatalógusunkban!</p>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <!--Festékek hirdetés-->
+
+        <div class="col-12 col-md-6 mt-5">
+          <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/fooldal/festek_hirdetes/festek.jpg" class="d-block w-100" alt="Festékek hirdetés"
+                  title="Festékek hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Festékek</h1>
+                  <p>Óriási festék kínálat!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/fooldal/festek_hirdetes/festek2.jpg" class="d-block w-100" alt="Festékek hirdetés"
+                  title="Festékek hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Festékek</h1>
+                  <p>Óriási festék kínálat!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/fooldal/festek_hirdetes/festek3.jpg" class="d-block w-100" alt="Festékek hirdetés"
+                  title="Festékek hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Festékek</h1>
+                  <p>Óriási festék kínálat!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-   
-<!--Festékek hirdetés-->
- 
-  <div class="col-12 col-md-6 mt-5">
-    <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <img src="img/fooldal/festek_hirdetes/festek.jpg" class="d-block w-100" alt="Festékek hirdetés" title="Festékek hirdetés">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Festékek</h1>
-            <p>Óriási festék kínálat!</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="img/fooldal/festek_hirdetes/festek2.jpg" class="d-block w-100" alt="Festékek hirdetés" title="Festékek hirdetés">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Festékek</h1>
-            <p>Óriási festék kínálat!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/fooldal/festek_hirdetes/festek3.jpg" class="d-block w-100" alt="Festékek hirdetés" title="Festékek hirdetés">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Festékek</h1>
-            <p>Óriási festék kínálat!</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-</div>
-</div>
 
 
- <!--Faanyag hirdetés-->
-    <div class="row mx-3">
- <div class="col-12 col-md-12 mt-5">
+      <!--Faanyag hirdetés-->
+      <div class="row mx-3">
+        <div class="col-12 col-md-12 mt-5">
 
-  <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="3000">
-        <img src="img/fooldal/fa_hirdetes/fa.jpg" class="d-block w-100" alt="Faanyag hirdetés" title="Faanyag hirdetés">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Faanyagok</h1>
-          <p>Óriási faanyag választék!</p>
+          <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/fooldal/fa_hirdetes/fa.jpg" class="d-block w-100" alt="Faanyag hirdetés"
+                  title="Faanyag hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Faanyagok</h1>
+                  <p>Óriási faanyag választék!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/fooldal/fa_hirdetes/fa2.jpg" class="d-block w-100" alt="Faanyag hirdetés"
+                  title="Faanyag hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Faanyagok</h1>
+                  <p>Óriási faanyag választék!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/fooldal/fa_hirdetes/fa3.jpg" class="d-block w-100" alt="Faanyag hirdetés"
+                  title="Faanyag hirdetés">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Faanyag</h1>
+                  <p>Óriási faanyag</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="img/fooldal/fa_hirdetes/fa2.jpg" class="d-block w-100" alt="Faanyag hirdetés" title="Faanyag hirdetés">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Faanyagok</h1>
-          <p>Óriási faanyag választék!</p>
+
+      <!--Kiemelt ajánlataink-->
+      <h1 class="mt-5 mx-3">Kiemelt ajánlataink</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mx-2">
+        <div class="col">
+          <div class="card">
+            <img src="img/fooldal/ajanlatok/csavarhuzo.jpg" class="card-img-top" alt="Csavarhúzó">
+            <div class="card-body">
+              <h3 class="card-title">Csillagcsavarhúzó</h3>
+              <a href="csavarhuzok.html" class="btn gomb">Megnézem</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/fooldal/ajanlatok/imbuszkulcs.jpg" class="card-img-top" alt="Imbuszkulcs">
+            <div class="card-body">
+              <h3 class="card-title">Imbuszkulcs</h3>
+              <a href="csavarhuzok.html" class="btn gomb">Megnézem</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/fooldal/ajanlatok/retegeltlemez.jpg" class="card-img-top" alt="Rétegelt lemez">
+            <div class="card-body">
+              <h3 class="card-title">Rétegelt lemez</h3>
+              <a href="retegeltlemezek.html" class="btn gomb">Megnézem</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/fooldal/ajanlatok/falfestek.jpg" class="card-img-top" alt="Falfesték">
+            <div class="card-body">
+              <h3 class="card-title">Falfesték</h3>
+              <a href="falfestekek.html" class="btn gomb">Megnézem</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/fooldal/ajanlatok/balta.jpg" class="card-img-top" alt="Balta">
+            <div class="card-body">
+              <h3 class="card-title">Balta</h3>
+              <a href="vagoeszkozok.html" class="btn gomb">Megnézem</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/fooldal/ajanlatok/deszka.jpg" class="card-img-top" alt="Deszka">
+            <div class="card-body">
+              <h3 class="card-title">Deszka</h3>
+              <a href="barkacslecek.html" class="btn gomb">Megnézem</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/fooldal/fa_hirdetes/fa3.jpg" class="d-block w-100" alt="Faanyag hirdetés" title="Faanyag hirdetés">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Faanyag</h1>
-          <p>Óriási faanyag</p>
+
+      <!--Vásárlói vélemények-->
+      <h1 class="mt-5 mx-3">Vásárlói vélemények</h1>
+      <div class="row mx-2">
+        <div class="col-11 offset-1">
+          <span class="badge komment">Nagy Anna</span>
+          <p>Nagyon korrektek voltak!</p>
+
+          <span class="badge komment">Simon László</span>
+          <p>Barátságos személyzet, hatalmas választék, mindig itt vásárolok.</p>
+
+          <span class="badge komment">Kovács István</span>
+          <p>Jó árak, minőségi termékek.</p>
         </div>
+      </div>
+
+      <!--Feliratkozás-->
+      <div class="row mx-3">
+        <div class="col-12 md-12 feliratkozas">
+          <h2 class="mt-2">Iratkozzon fel hírleveünkre!</h2>
+          <div class="input-group mb-3 nev">
+            <input type="text" class="form-control" placeholder="Név" aria-label="Név" aria-describedby="button-addon2">
+          </div>
+
+          <div class="input-group mb-3 email">
+            <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail"
+              aria-describedby="button-addon2" id="email">
+            <button class="btn gomb" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozás</button>
+          </div>
+        </div>
+
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
 
-  </div>
-</div>
+  <script>
+    //Menühöz kell
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
 
-<!--Kiemelt ajánlataink-->
-    <h1 class="mt-5 mx-3">Kiemelt ajánlataink</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4 mx-2">
-      <div class="col">
-        <div class="card">
-          <img src="img/fooldal/ajanlatok/csavarhuzo.jpg" class="card-img-top" alt="Csavarhúzó">
-          <div class="card-body">
-            <h3 class="card-title">Csillagcsavarhúzó</h3>
-            <a href="csavarhuzok.html" class="btn gomb">Megnézem</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/fooldal/ajanlatok/imbuszkulcs.jpg" class="card-img-top" alt="Imbuszkulcs">
-          <div class="card-body">
-            <h3 class="card-title">Imbuszkulcs</h3>
-            <a href="csavarhuzok.html" class="btn gomb">Megnézem</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/fooldal/ajanlatok/retegeltlemez.jpg" class="card-img-top" alt="Rétegelt lemez">
-          <div class="card-body">
-            <h3 class="card-title">Rétegelt lemez</h3>
-            <a href="retegeltlemezek.html" class="btn gomb">Megnézem</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/fooldal/ajanlatok/falfestek.jpg" class="card-img-top" alt="Falfesték">
-          <div class="card-body">
-            <h3 class="card-title">Falfesték</h3>
-            <a href="falfestekek.html" class="btn gomb">Megnézem</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/fooldal/ajanlatok/balta.jpg" class="card-img-top" alt="Balta">
-          <div class="card-body">
-            <h3 class="card-title">Balta</h3>
-            <a href="vagoeszkozok.html" class="btn gomb">Megnézem</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="img/fooldal/ajanlatok/deszka.jpg" class="card-img-top" alt="Deszka">
-          <div class="card-body">
-            <h3 class="card-title">Deszka</h3>
-            <a href="barkacslecek.html"  class="btn gomb">Megnézem</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
 
-  <!--Vásárlói vélemények-->
-<h1 class="mt-5 mx-3">Vásárlói vélemények</h1>
-  <div class="row mx-2">
-    <div class="col-11 offset-1">
-      <span class="badge komment">Nagy Anna</span>
-      <p>Nagyon korrektek voltak!</p>
-
-      <span class="badge komment">Simon László</span>
-      <p>Barátságos személyzet, hatalmas választék, mindig itt vásárolok.</p>
-
-      <span class="badge komment">Kovács István</span>
-      <p>Jó árak, minőségi termékek.</p>
-    </div>
-  </div>
-
-  <!--Feliratkozás-->
-  <div class="row mx-3">
-    <div class="col-12 md-12 feliratkozas">
-      <h2 class="mt-2">Iratkozzon fel hírleveünkre!</h2>
-      <div class="input-group mb-3 nev">
-        <input type="text" class="form-control" placeholder="Név" aria-label="Név" aria-describedby="button-addon2">
-      </div>
-
-      <div class="input-group mb-3 email">
-        <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2" id="email">
-        <button class="btn gomb" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozás</button>
-      </div>
-    </div>
-  
-</div>
-</div>
-</div>
-
-  
-<script>
-  //Menühöz kell
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-  }
-
-  //Feliratkozás gomb
-  function feliratkozas(){
+    //Feliratkozás gomb
+    function feliratkozas() {
       let email = document.getElementById('email').value;
-      if(email ==""){
+      if (email == "") {
         alert("Kérem, töltse ki a mezőt!")
       }
-      else{
+      else {
         alert("Sikeresen feliratkozott a hírlevélre! Köszönjük szépen!");
       }
     }
   </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
