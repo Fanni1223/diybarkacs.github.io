@@ -63,3 +63,8 @@ Barkács Áruház
 44. https://www.freepik.com/free-photo/screwdriver-isolated-white-background-close-up_22762750.htm#query=screwdriver&position=0&from_view=search&track=sph
 45. https://www.freepik.com/free-psd/screwdriver-mockup_13603285.htm#query=screwdriver&position=32&from_view=search&track=sph
 46. https://www.freepik.com/free-psd/screwdrivers-blister-mockup-perspective-view_13714139.htm?query=tools
+47. https://unsplash.com/photos/MXeDE_yCdHQ
+48. https://unsplash.com/photos/_UGTrlvki_A
+49. https://pixabay.com/hu/photos/akkumul%c3%a1tor-%c3%a9p%c3%adtkez%c3%a9s-19983/
+50. https://www.freepik.com/free-photo/set-drills-white-background-close-up_21939075.htm#query=drill%20bits&position=10&from_view=search&track=sph
+51. https://www.freepik.com/free-psd/masonry-drill-bits-blister-mockup_16083561.htm#query=drill%20bits&position=36&from_view=search&track=sph
