@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Rólunk</title>
+</head>
+
+<body class="noselect">
+  <div id="mySidenav" class="sidenav">
+
+    <img src="logo.svg" alt="" class="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="nav-item menu">
+      <a class="nav-link" href="index.html">Főoldal</a>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Festékek</button>
+      <div class="dropdown-content">
+        <a href="falfestekek.html">Falfesték</a>
+        <a href="fafestekek.html">Fafesték</a>
+        <a href="zomancfestekek.html">Zománcfestékek</a>
+        <a href="aerosolok.html">Aerosolok</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Faanyagok</button>
+      <div class="dropdown-content">
+        <a href="barkacslecek.html">Barkácslécek</a>
+        <a href="fureszaruk.html">Fűrészáruk</a>
+        <a href="osblapok.html">OSB lapok</a>
+        <a href="retegeltlemezek.html">Rétegelt lemezek</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Szerszámok</button>
+      <div class="dropdown-content">
+        <a href="csavarhuzok.html">Csavarhúzók</a>
+        <a href="fogok.html">Fogók</a>
+        <a href="vagoeszkozok.html">Vágóeszközök</a>
+        <a href="furok.html">Fúrók</a>
+      </div>
+    </div>
+
+    <div class="nav-item menu">
+      <a class="nav-link" href="blog.html">Blog</a>
+    </div>
+
+    <div class="nav-item menu">
+      <a class="nav-link" href="rolunk.html">Rólunk</a>
+    </div>
+
+    <div class="row mt-5 nyitvatartas">
+      <h2>Nyitvatartás</h2>
+
+      <h3 class="mt-3">Hétfő-péntek</h3>
+      <h4>07:30-20:30</h4>
+
+      <h3 class="mt-3">Szombat</h3>
+      <h4>08:00-20:00</h4>
+
+      <h3 class="mt-3">Vasárnap</h3>
+      <h4>Zárva</h4>
+
+      <h5 class="mt-5">© Diy Barkácsáruház</h5>
+    </div>
+  </div>
+
+  <div id="main">
+    <navbar style="font-size:25px;cursor:pointer" class="menugomb" onclick="openNav()">&#9776;</navbar>
+    <div class="container">
+
+      <div class="we_container pt-5">
+
+        <div class="row mx-4">
+          <div class="card py-2 col-12 col-md-4 mt-3">
+            <img class="card-img-top img-fluid" src="img/rolunk/mi/fanni-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Juhász Fanni</p>
+            </div>
+          </div>
+
+          <div class="card py-2 col-12 col-md-4 mt-3">
+            <img class="card-img-top img-fluid" src="img/rolunk/mi/felix-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Bálint Márk Félix</p>
+            </div>
+          </div>
+          <div class="card py-2 col-12 col-md-4 mt-3">
+            <img class="card-img-top img-fluid" src="img/rolunk/mi/regina-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Túri Regina</p>
+            </div>
+          </div>
+        </div>
+        <div class="row alsosor mx-4">
+          <div class="card mt-3 py-2 col-12 col-md-5 float-start kartya">
+            <img class="card-img-top d-flex align-items-center" src="img/rolunk/uzlet/uzletunk-min.jpg"
+              alt="Card image cap">
+          </div>
+          <div class="card mt-3 col-12 col-md-5 float-end kartya">
+            <div class="card-body">
+              <p class="card-text">
+                <h2>Üzletünk</h2>Some quick example text to build on the card title and make up the bulk of the
+                card's content. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo facilis ratione
+                quibusdam numquam fugiat. Reprehenderit debitis atque nobis nihil voluptatibus!
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Vásárlói vélemények-->
+
+      <h1 class="mt-5">Vásárlói vélemények</h1>
+      <div class="row">
+        <div class="col-11 offset-1">
+          <span class="badge komment">Nagy Anna</span><span class="mx-3">⭐⭐⭐⭐⭐</span>
+          <p>Nagyon korrektek voltak!</p>
+
+          <span class="badge komment">Simon László</span><span class="mx-3">⭐⭐⭐⭐⭐</span>
+          <p>Barátságos személyzet, hatalmas választék, mindig itt vásárolok.</p>
+
+          <span class="badge komment">Kovács István</span> <span class="mx-3">⭐⭐⭐⭐⭐</span>
+          <p>Jó árak, minőségi termékek.</p>
+        </div>
+      </div>
+
+      <!--Feliratkozás-->
+      <div class="row">
+        <div class="col-12 md-12 feliratkozas">
+          <h2 class="mt-2">Iratkozzon fel hírleveünkre!</h2>
+          <div class="input-group mb-3 nev">
+            <input type="text" class="form-control" placeholder="Név" aria-label="Név" aria-describedby="button-addon2">
+          </div>
+
+          <div class="input-group mb-3 email">
+            <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail"
+              aria-describedby="button-addon2" id="email">
+            <button class="btn gomb" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozás</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+
+
+  <script>
+    //Menühöz kell
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+
+    //Feliratkozás gomb
+    function feliratkozas() {
+      let email = document.getElementById('email').value;
+      if (email == "") {
+        alert("Kérem, töltse ki a mezőt!")
+      }
+      else {
+        alert("Sikeresen feliratkozott a hírlevélre! Köszönjük szépen!");
+      }
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
